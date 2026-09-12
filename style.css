@@ -154,3 +154,44 @@ footer {
         height: 65px;
     }
 }
+.products-page,
+.about-page {
+    width: 900px;
+    margin: 40px auto;
+    text-align: center;
+}
+.products-page h1,
+.about-page h1 {
+    color: #292653;
+}
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.product-card {
+    padding: 12px;
+    background-color: #fff1c7;
+    border: 3px solid #292653;
+}
+.product-card h2 {
+    font-size: 18px;
+    color: #292653;
+}
+.about-page p {
+    padding: 15px;
+    background-color: #fff1c7;
+    border: 2px solid #292653;
+}
+.back-link {
+    display: inline-block;
+    margin: 20px 5px;
+    padding: 10px 15px;
+    background-color: #ab9fd6;
+    color: #292653;
+    border: 2px solid #292653;
+    text-decoration: none;
+}
+.back-link:hover {
+    background-color: #fff1c7;
+}
