@@ -141,3 +141,16 @@ footer {
     color: #1c1937;
     font-weight: bold;
 }
+@media (max-width: 700px) {
+    .machine-area {
+        flex-direction: column;
+        gap: 25px;
+    }
+    .vending {
+        width: min(520px, 90vw);
+    }
+    .menuBtn {
+        width: 65px;
+        height: 65px;
+    }
+}
