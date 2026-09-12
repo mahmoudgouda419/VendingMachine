@@ -60,7 +60,6 @@ body {
     z-index: 10;
 }
 .products-menu.open {
-
     right: 0;
 }
 .closeBtn {
@@ -127,7 +126,7 @@ body {
     top: 8px;
     right: 10px;
     color: #292653;
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer;
     border: none;
     background-color: transparent;
