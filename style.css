@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -8,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: monospace;
+    font-family: "Pixelify Sans", sans-serif;
     overflow-x: hidden;
 
 }
@@ -85,11 +86,49 @@ body {
     border: 2px solid #1c1937;
     background-color: #AB9FD6;
     color: #292653;
-    font-family: monospace;
+    font-family: "Pixelify Sans", sans-serif;
     font-weight: bold;
     cursor: pointer;
     text-align: left;
 }
 .product-item:hover {
     background-color: #fff1c7;
+}
+.product-popup {
+    display: none;
+    position: fixed;
+    background-color: #AB9FD6;
+    inset: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+.product-popup.open {
+    display: flex;
+}
+.popup-content {
+    position: relative;
+    width: 300px;
+    max-width: 80%;
+    padding: 25px;
+    text-align: center;
+    background-color: #fff1c7;
+    color: #292653;
+    font-family: "Pixelify Sans", sans-serif;
+    border: 5px solid #292653;
+    box-shadow: 8px 8px 0 #292653;
+}
+.popup-content h2 {
+    margin-top: 10px;
+
+}
+.popup-close {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    color: #292653;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
 }
