@@ -132,3 +132,13 @@ body {
     border: none;
     background-color: transparent;
 }
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #AB9FD6;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: #1c1937;
+    font-weight: bold;
+}
